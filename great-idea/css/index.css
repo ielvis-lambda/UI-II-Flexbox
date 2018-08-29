@@ -218,10 +218,10 @@ section .services-header-img {
 div .allservices{
 	display:flex;
 	justify-content: space-around;
+	align-items:flex-start;
 	flex-wrap:wrap;
 	border: solid blue;
 	width:880px;
-	height:800px;
 	margin-bottom:20px;
 	border-bottom: 1px solid black;
 }
@@ -230,6 +230,8 @@ div .allservices{
 	border: solid red;
 	background: lightgray;
 	width:350px;
+	margin-top:20px;
+	margin-bottom:20px;
 }
 
 .facts {
@@ -246,12 +248,21 @@ div .allservices{
 
 .bottomlist {
 	margin-top: 25px;
-	border: solid yellowgreen;
 	width: 150px;
 }
 
 .services-info-img {
 	align-self:flex-end;
 	border: solid green;
+}
+
+button {
+  background: white;
+  vertical-align: top;
+  margin-top: 6px;
+  padding: 8px 44px;
+  font-size: 17px;
+  border: 1px solid black;
+  cursor: pointer;
 }
 
