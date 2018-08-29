@@ -215,3 +215,43 @@ section .services-header-img {
 	font-size: 26px;
 }
 
+div .allservices{
+	display:flex;
+	justify-content: space-around;
+	flex-wrap:wrap;
+	border: solid blue;
+	width:880px;
+	height:800px;
+	margin-bottom:20px;
+	border-bottom: 1px solid black;
+}
+
+.box {
+	border: solid red;
+	background: lightgray;
+	width:350px;
+}
+
+.facts {
+	display:flex;
+	justify-content: space-between;
+	width:880px;
+	border: solid rgb(190, 108, 190);
+}
+
+.factsleft {
+	border: solid pink;
+	width:400px;
+}
+
+.bottomlist {
+	margin-top: 25px;
+	border: solid yellowgreen;
+	width: 150px;
+}
+
+.services-info-img {
+	align-self:flex-end;
+	border: solid green;
+}
+
