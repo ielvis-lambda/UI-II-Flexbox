@@ -217,32 +217,42 @@ section .services-header-img {
 
 div .allservices{
 	display:flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items:flex-start;
 	flex-wrap:wrap;
-	border: solid blue;
 	width:880px;
 	margin-bottom:20px;
 	border-bottom: 1px solid black;
 }
 
 .box {
-	border: solid red;
-	background: lightgray;
-	width:350px;
+	border: solid black;
+	border-width: thin;
+	background:#F4F3F4;
+	width:420px;
+	padding:15px;
 	margin-top:20px;
 	margin-bottom:20px;
+}
+
+.learn {
+  background: white;
+  vertical-align: top;
+  margin-top: 20px;
+  padding: 8px 44px;
+  font-size: 17px;
+  border: 1px solid black;
+  cursor: pointer;
 }
 
 .facts {
 	display:flex;
 	justify-content: space-between;
 	width:880px;
-	border: solid rgb(190, 108, 190);
+	margin-top: 25px;
 }
 
 .factsleft {
-	border: solid pink;
 	width:400px;
 }
 
@@ -253,16 +263,11 @@ div .allservices{
 
 .services-info-img {
 	align-self:flex-end;
-	border: solid green;
 }
 
-button {
-  background: white;
-  vertical-align: top;
-  margin-top: 6px;
-  padding: 8px 44px;
-  font-size: 17px;
-  border: 1px solid black;
-  cursor: pointer;
+li{
+  margin: 10px 0;
 }
+
+
 
