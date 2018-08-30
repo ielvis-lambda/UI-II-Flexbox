@@ -240,9 +240,10 @@ div .allservices{
   vertical-align: top;
   margin-top: 20px;
   padding: 8px 44px;
-  font-size: 17px;
+  font-size: 12px;
   border: 1px solid black;
-  cursor: pointer;
+	cursor: pointer;
+	border-radius: 8px;
 }
 
 .facts {
@@ -266,7 +267,7 @@ div .allservices{
 }
 
 li{
-  margin: 10px 0;
+  margin: 20px 0;
 }
 
 
